@@ -252,5 +252,40 @@
       "sklearn"
     ],
     "file": "codes/110.py"
+  },
+  "1": {
+    "name": "CM354 Machine Learning Lab - Experiment 2: Simple Linear Regression",
+    "description": "Simple Linear Regression covering random data (least squares), MBA salary dataset, and country dataset with regression diagnosis, outlier detection (Z-score, Cook's distance), and train-test evaluation.",
+    "category": "Machine Learning",
+    "language": "python",
+    "tags": [
+      "machine-learning",
+      "simple-linear-regression",
+      "least-squares",
+      "statsmodels",
+      "sklearn",
+      "outliers",
+      "cooks-distance",
+      "exp-02"
+    ],
+    "file": "codes/1.py"
+  },
+  "exp-02": {
+    "name": "CM354 Machine Learning Lab - Experiment 2: Simple Linear Regression",
+    "description": "Simple Linear Regression covering random data (least squares), MBA salary dataset, and country dataset with regression diagnosis, outlier detection (Z-score, Cook's distance), and train-test evaluation.",
+    "category": "Machine Learning",
+    "language": "python",
+    "tags": [
+      "machine-learning",
+      "simple-linear-regression",
+      "least-squares",
+      "statsmodels",
+      "sklearn",
+      "outliers",
+      "cooks-distance",
+      "exp-02"
+    ],
+    "file": "codes/1.py"
   }
 }
+
