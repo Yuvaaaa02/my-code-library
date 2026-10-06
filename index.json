@@ -1,162 +1,256 @@
 {
   "101": {
-    "name": "Code 101",
-    "description": "Snippet 101",
-    "category": "General",
+    "name": "Data Preprocessing and Visualization",
+    "description": "Load, clean, summarize, and visualize a dataset using Pandas, Matplotlib, and Seaborn.",
+    "category": "Data Preprocessing",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "pandas",
+      "data-cleaning",
+      "visualization",
+      "seaborn"
+    ],
     "file": "codes/101.py"
   },
   "102": {
-    "name": "Code 102",
-    "description": "Snippet 102",
-    "category": "General",
+    "name": "Simple Linear Regression",
+    "description": "Predict salary from years of experience using simple linear regression.",
+    "category": "Regression",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "linear-regression",
+      "sklearn",
+      "prediction"
+    ],
     "file": "codes/102.py"
   },
   "103": {
-    "name": "Code 103",
-    "description": "Snippet 103",
-    "category": "General",
+    "name": "Multiple Linear Regression",
+    "description": "Predict salary using multiple features such as experience, age, and education level.",
+    "category": "Regression",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "multiple-regression",
+      "sklearn",
+      "prediction"
+    ],
     "file": "codes/103.py"
   },
   "104": {
-    "name": "Code 104",
-    "description": "Snippet 104",
-    "category": "General",
+    "name": "Logistic Regression",
+    "description": "Classify whether a customer will purchase a product using age and estimated salary.",
+    "category": "Classification",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "logistic-regression",
+      "classification",
+      "sklearn"
+    ],
     "file": "codes/104.py"
   },
   "105": {
-    "name": "Code 105",
-    "description": "Snippet 105",
-    "category": "General",
+    "name": "Decision Tree Classification",
+    "description": "Classify customer purchase behavior using a decision tree and visualize the tree.",
+    "category": "Classification",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "decision-tree",
+      "classification",
+      "sklearn",
+      "visualization"
+    ],
     "file": "codes/105.py"
   },
   "106": {
-    "name": "Code 106",
-    "description": "Snippet 106",
-    "category": "General",
+    "name": "Gradient Descent",
+    "description": "Implement gradient descent from scratch to find the slope and intercept of a linear model.",
+    "category": "Optimization",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "gradient-descent",
+      "optimization",
+      "numpy",
+      "linear-regression"
+    ],
     "file": "codes/106.py"
   },
   "107": {
-    "name": "Code 107",
-    "description": "Snippet 107",
-    "category": "General",
+    "name": "K-Means Clustering",
+    "description": "Group customers into clusters based on annual income and spending score.",
+    "category": "Clustering",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "k-means",
+      "clustering",
+      "unsupervised-learning",
+      "sklearn"
+    ],
     "file": "codes/107.py"
   },
   "108": {
-    "name": "Code 108",
-    "description": "Snippet 108",
-    "category": "General",
+    "name": "Hierarchical Clustering",
+    "description": "Perform hierarchical clustering and visualize customer groups using a dendrogram.",
+    "category": "Clustering",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "hierarchical-clustering",
+      "dendrogram",
+      "scipy",
+      "sklearn"
+    ],
     "file": "codes/108.py"
   },
   "109": {
-    "name": "Code 109",
-    "description": "Snippet 109",
-    "category": "General",
+    "name": "ARIMA Time Series Forecasting",
+    "description": "Forecast future sales values using an ARIMA time series model.",
+    "category": "Time Series",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "arima",
+      "time-series",
+      "forecasting",
+      "statsmodels"
+    ],
     "file": "codes/109.py"
   },
   "110": {
-    "name": "Code 110",
-    "description": "Snippet 110",
-    "category": "General",
+    "name": "Movie Recommendation System",
+    "description": "Recommend similar movies using TF-IDF vectorization and cosine similarity.",
+    "category": "Recommendation System",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "recommendation-system",
+      "tfidf",
+      "cosine-similarity",
+      "sklearn"
+    ],
     "file": "codes/110.py"
   },
   "001": {
-    "name": "Code 101",
-    "description": "Snippet 101",
-    "category": "General",
+    "name": "Data Preprocessing and Visualization",
+    "description": "Load, clean, summarize, and visualize a dataset using Pandas, Matplotlib, and Seaborn.",
+    "category": "Data Preprocessing",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "pandas",
+      "data-cleaning",
+      "visualization",
+      "seaborn"
+    ],
     "file": "codes/101.py"
   },
   "002": {
-    "name": "Code 102",
-    "description": "Snippet 102",
-    "category": "General",
+    "name": "Simple Linear Regression",
+    "description": "Predict salary from years of experience using simple linear regression.",
+    "category": "Regression",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "linear-regression",
+      "sklearn",
+      "prediction"
+    ],
     "file": "codes/102.py"
   },
   "003": {
-    "name": "Code 103",
-    "description": "Snippet 103",
-    "category": "General",
+    "name": "Multiple Linear Regression",
+    "description": "Predict salary using multiple features such as experience, age, and education level.",
+    "category": "Regression",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "multiple-regression",
+      "sklearn",
+      "prediction"
+    ],
     "file": "codes/103.py"
   },
   "004": {
-    "name": "Code 104",
-    "description": "Snippet 104",
-    "category": "General",
+    "name": "Logistic Regression",
+    "description": "Classify whether a customer will purchase a product using age and estimated salary.",
+    "category": "Classification",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "logistic-regression",
+      "classification",
+      "sklearn"
+    ],
     "file": "codes/104.py"
   },
   "005": {
-    "name": "Code 105",
-    "description": "Snippet 105",
-    "category": "General",
+    "name": "Decision Tree Classification",
+    "description": "Classify customer purchase behavior using a decision tree and visualize the tree.",
+    "category": "Classification",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "decision-tree",
+      "classification",
+      "sklearn",
+      "visualization"
+    ],
     "file": "codes/105.py"
   },
   "006": {
-    "name": "Code 106",
-    "description": "Snippet 106",
-    "category": "General",
+    "name": "Gradient Descent",
+    "description": "Implement gradient descent from scratch to find the slope and intercept of a linear model.",
+    "category": "Optimization",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "gradient-descent",
+      "optimization",
+      "numpy",
+      "linear-regression"
+    ],
     "file": "codes/106.py"
   },
   "007": {
-    "name": "Code 107",
-    "description": "Snippet 107",
-    "category": "General",
+    "name": "K-Means Clustering",
+    "description": "Group customers into clusters based on annual income and spending score.",
+    "category": "Clustering",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "k-means",
+      "clustering",
+      "unsupervised-learning",
+      "sklearn"
+    ],
     "file": "codes/107.py"
   },
   "008": {
-    "name": "Code 108",
-    "description": "Snippet 108",
-    "category": "General",
+    "name": "Hierarchical Clustering",
+    "description": "Perform hierarchical clustering and visualize customer groups using a dendrogram.",
+    "category": "Clustering",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "hierarchical-clustering",
+      "dendrogram",
+      "scipy",
+      "sklearn"
+    ],
     "file": "codes/108.py"
   },
   "009": {
-    "name": "Code 109",
-    "description": "Snippet 109",
-    "category": "General",
+    "name": "ARIMA Time Series Forecasting",
+    "description": "Forecast future sales values using an ARIMA time series model.",
+    "category": "Time Series",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "arima",
+      "time-series",
+      "forecasting",
+      "statsmodels"
+    ],
     "file": "codes/109.py"
   },
   "010": {
-    "name": "Code 110",
-    "description": "Snippet 110",
-    "category": "General",
+    "name": "Movie Recommendation System",
+    "description": "Recommend similar movies using TF-IDF vectorization and cosine similarity.",
+    "category": "Recommendation System",
     "language": "python",
-    "tags": ["snippet"],
+    "tags": [
+      "recommendation-system",
+      "tfidf",
+      "cosine-similarity",
+      "sklearn"
+    ],
     "file": "codes/110.py"
   }
 }
