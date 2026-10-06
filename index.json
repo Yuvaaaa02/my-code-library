@@ -1,0 +1,42 @@
+{
+  "001": {
+    "name": "Hello World",
+    "description": "Simple Hello World example",
+    "category": "Basics",
+    "language": "python",
+    "tags": ["hello", "basics", "starter"],
+    "file": "codes/001.py"
+  },
+  "002": {
+    "name": "Addition",
+    "description": "Simple addition function",
+    "category": "Math",
+    "language": "python",
+    "tags": ["math", "add", "arithmetic"],
+    "file": "codes/002.py"
+  },
+  "003": {
+    "name": "Binary Search",
+    "description": "Binary search algorithm implementation for sorted lists",
+    "category": "DSA",
+    "language": "python",
+    "tags": ["search", "binary search", "dsa", "algorithms"],
+    "file": "codes/003.py"
+  },
+  "101": {
+    "name": "Hello Code 101",
+    "description": "Greeting function for code 101",
+    "category": "Basics",
+    "language": "python",
+    "tags": ["hello", "basics", "101"],
+    "file": "codes/101.py"
+  },
+  "102": {
+    "name": "Merge Sort",
+    "description": "Divide-and-conquer merge sort algorithm",
+    "category": "DSA",
+    "language": "python",
+    "tags": ["sort", "merge sort", "dsa", "algorithms"],
+    "file": "codes/102.py"
+  }
+}
