@@ -1,82 +1,162 @@
 {
-  "001": {
-    "name": "Data Cleaning & EDA",
-    "description": "Data preprocessing, missing value handling with mean, summary stats, and distribution/heatmap visualization with pandas and seaborn",
-    "category": "Data Science",
-    "language": "python",
-    "tags": ["pandas", "seaborn", "eda", "data cleaning", "visualization", "preprocessing"],
-    "file": "codes/001.py"
-  },
-  "002": {
-    "name": "Simple Linear Regression",
-    "description": "Simple linear regression using scikit-learn on Salary dataset with R2, MSE evaluation, and scatter plot visualization",
-    "category": "Machine Learning",
-    "language": "python",
-    "tags": ["linear regression", "scikit-learn", "regression", "salary", "ml"],
-    "file": "codes/002.py"
-  },
-  "003": {
-    "name": "Multiple Linear Regression",
-    "description": "Multiple linear regression with scikit-learn on multi-feature Salary dataset with prediction on new employee sample",
-    "category": "Machine Learning",
-    "language": "python",
-    "tags": ["multiple regression", "scikit-learn", "regression", "multi-feature", "ml"],
-    "file": "codes/003.py"
-  },
-  "004": {
-    "name": "Logistic Regression",
-    "description": "Logistic regression classification using scikit-learn on Social Network Ads with confusion matrix and classification report",
-    "category": "Machine Learning",
-    "language": "python",
-    "tags": ["logistic regression", "classification", "scikit-learn", "confusion matrix", "ml"],
-    "file": "codes/004.py"
-  },
-  "005": {
-    "name": "Decision Tree Classifier",
-    "description": "Decision tree classification using entropy criterion with scikit-learn, confusion matrix evaluation, and tree visualization plot",
-    "category": "Machine Learning",
-    "language": "python",
-    "tags": ["decision tree", "tree", "classification", "plot_tree", "scikit-learn", "ml"],
-    "file": "codes/005.py"
-  },
   "101": {
-    "name": "Data Cleaning & EDA",
-    "description": "Data preprocessing, missing value handling with mean, summary stats, and distribution/heatmap visualization with pandas and seaborn",
-    "category": "Data Science",
+    "name": "Code 101",
+    "description": "Snippet 101",
+    "category": "General",
     "language": "python",
-    "tags": ["pandas", "seaborn", "eda", "data cleaning", "visualization", "preprocessing"],
+    "tags": ["snippet"],
     "file": "codes/101.py"
   },
   "102": {
-    "name": "Simple Linear Regression",
-    "description": "Simple linear regression using scikit-learn on Salary dataset with R2, MSE evaluation, and scatter plot visualization",
-    "category": "Machine Learning",
+    "name": "Code 102",
+    "description": "Snippet 102",
+    "category": "General",
     "language": "python",
-    "tags": ["linear regression", "scikit-learn", "regression", "salary", "ml"],
+    "tags": ["snippet"],
     "file": "codes/102.py"
   },
   "103": {
-    "name": "Multiple Linear Regression",
-    "description": "Multiple linear regression with scikit-learn on multi-feature Salary dataset with prediction on new employee sample",
-    "category": "Machine Learning",
+    "name": "Code 103",
+    "description": "Snippet 103",
+    "category": "General",
     "language": "python",
-    "tags": ["multiple regression", "scikit-learn", "regression", "multi-feature", "ml"],
+    "tags": ["snippet"],
     "file": "codes/103.py"
   },
   "104": {
-    "name": "Logistic Regression",
-    "description": "Logistic regression classification using scikit-learn on Social Network Ads with confusion matrix and classification report",
-    "category": "Machine Learning",
+    "name": "Code 104",
+    "description": "Snippet 104",
+    "category": "General",
     "language": "python",
-    "tags": ["logistic regression", "classification", "scikit-learn", "confusion matrix", "ml"],
+    "tags": ["snippet"],
     "file": "codes/104.py"
   },
   "105": {
-    "name": "Decision Tree Classifier",
-    "description": "Decision tree classification using entropy criterion with scikit-learn, confusion matrix evaluation, and tree visualization plot",
-    "category": "Machine Learning",
+    "name": "Code 105",
+    "description": "Snippet 105",
+    "category": "General",
     "language": "python",
-    "tags": ["decision tree", "tree", "classification", "plot_tree", "scikit-learn", "ml"],
+    "tags": ["snippet"],
     "file": "codes/105.py"
+  },
+  "106": {
+    "name": "Code 106",
+    "description": "Snippet 106",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/106.py"
+  },
+  "107": {
+    "name": "Code 107",
+    "description": "Snippet 107",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/107.py"
+  },
+  "108": {
+    "name": "Code 108",
+    "description": "Snippet 108",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/108.py"
+  },
+  "109": {
+    "name": "Code 109",
+    "description": "Snippet 109",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/109.py"
+  },
+  "110": {
+    "name": "Code 110",
+    "description": "Snippet 110",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/110.py"
+  },
+  "001": {
+    "name": "Code 101",
+    "description": "Snippet 101",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/101.py"
+  },
+  "002": {
+    "name": "Code 102",
+    "description": "Snippet 102",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/102.py"
+  },
+  "003": {
+    "name": "Code 103",
+    "description": "Snippet 103",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/103.py"
+  },
+  "004": {
+    "name": "Code 104",
+    "description": "Snippet 104",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/104.py"
+  },
+  "005": {
+    "name": "Code 105",
+    "description": "Snippet 105",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/105.py"
+  },
+  "006": {
+    "name": "Code 106",
+    "description": "Snippet 106",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/106.py"
+  },
+  "007": {
+    "name": "Code 107",
+    "description": "Snippet 107",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/107.py"
+  },
+  "008": {
+    "name": "Code 108",
+    "description": "Snippet 108",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/108.py"
+  },
+  "009": {
+    "name": "Code 109",
+    "description": "Snippet 109",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/109.py"
+  },
+  "010": {
+    "name": "Code 110",
+    "description": "Snippet 110",
+    "category": "General",
+    "language": "python",
+    "tags": ["snippet"],
+    "file": "codes/110.py"
   }
 }

@@ -1,4 +1,4 @@
-# Code 101
+# Code 106
 # Paste your Python code here
 
 def main():
