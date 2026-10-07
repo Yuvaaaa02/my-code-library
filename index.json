@@ -254,19 +254,16 @@
     "file": "codes/110.py"
   },
   "1": {
-    "name": "CM354 Machine Learning Lab - Experiment 2: Simple Linear Regression",
-    "description": "Simple Linear Regression covering random data (least squares), MBA salary dataset, and country dataset with regression diagnosis, outlier detection (Z-score, Cook's distance), and train-test evaluation.",
-    "category": "Machine Learning",
+    "name": "Data Cleaning, Imputation and Visualization",
+    "description": "Clean student performance dataset by removing duplicates, imputing missing numerical values with mean, and visualizing distributions (histogram, scatter, and department bar chart).",
+    "category": "Data Preprocessing",
     "language": "python",
     "tags": [
-      "machine-learning",
-      "simple-linear-regression",
-      "least-squares",
-      "statsmodels",
-      "sklearn",
-      "outliers",
-      "cooks-distance",
-      "exp-02"
+      "pandas",
+      "matplotlib",
+      "data-cleaning",
+      "imputation",
+      "visualization"
     ],
     "file": "codes/1.py"
   },
@@ -285,7 +282,128 @@
       "cooks-distance",
       "exp-02"
     ],
-    "file": "codes/1.py"
+    "file": "codes/exp-02.py"
+  },
+  "2": {
+    "name": "Simple Linear Regression - MBA Salary",
+    "description": "Predict salary from Grade 10 percentage using Simple Linear Regression with train-test split and regression line visualization.",
+    "category": "Regression",
+    "language": "python",
+    "tags": [
+      "linear-regression",
+      "sklearn",
+      "matplotlib",
+      "regression"
+    ],
+    "file": "codes/2.py"
+  },
+  "3": {
+    "name": "Multiple Linear Regression - House Price",
+    "description": "Predict house prices using multiple features (Area, Bedrooms, BuiltUp, Age) with Linear Regression and display coefficients.",
+    "category": "Regression",
+    "language": "python",
+    "tags": [
+      "multiple-regression",
+      "sklearn",
+      "regression",
+      "prediction"
+    ],
+    "file": "codes/3.py"
+  },
+  "4": {
+    "name": "Logistic Regression - German Credit Risk",
+    "description": "Classify credit risk using Logistic Regression with dummy variable encoding and evaluate classification accuracy.",
+    "category": "Classification",
+    "language": "python",
+    "tags": [
+      "logistic-regression",
+      "classification",
+      "sklearn",
+      "accuracy"
+    ],
+    "file": "codes/4.py"
+  },
+  "5": {
+    "name": "Decision Tree Classification - Adult Income",
+    "description": "Predict whether income exceeds 50K using Decision Tree Classifier with one-hot encoding and evaluate accuracy.",
+    "category": "Classification",
+    "language": "python",
+    "tags": [
+      "decision-tree",
+      "classification",
+      "sklearn",
+      "accuracy"
+    ],
+    "file": "codes/5.py"
+  },
+  "6": {
+    "name": "Gradient Descent from Scratch - TV vs Sales",
+    "description": "Implement gradient descent from scratch to optimize slope and intercept for TV advertising vs Sales prediction with scatter plot.",
+    "category": "Optimization",
+    "language": "python",
+    "tags": [
+      "gradient-descent",
+      "optimization",
+      "linear-regression",
+      "from-scratch",
+      "matplotlib"
+    ],
+    "file": "codes/6.py"
+  },
+  "7": {
+    "name": "Hierarchical Clustering and Dendrogram",
+    "description": "Perform agglomerative hierarchical clustering with Ward linkage, plot dendrogram, and visualize cluster scatter plot.",
+    "category": "Clustering",
+    "language": "python",
+    "tags": [
+      "clustering",
+      "hierarchical-clustering",
+      "scipy",
+      "dendrogram",
+      "sklearn"
+    ],
+    "file": "codes/7.py"
+  },
+  "8": {
+    "name": "Time Series Forecasting with ARIMA",
+    "description": "Fit an ARIMA(1, 1, 1) model to time series data, forecast the next 5 time steps, and plot actual vs forecasted values.",
+    "category": "Time Series",
+    "language": "python",
+    "tags": [
+      "time-series",
+      "arima",
+      "statsmodels",
+      "forecasting",
+      "matplotlib"
+    ],
+    "file": "codes/8.py"
+  },
+  "9": {
+    "name": "Sales Time Series Forecasting with ARIMA",
+    "description": "Forecast monthly sales quantities 6 steps ahead using ARIMA(1, 1, 1) on sales data with actual vs forecast visualization.",
+    "category": "Time Series",
+    "language": "python",
+    "tags": [
+      "time-series",
+      "arima",
+      "sales-forecasting",
+      "statsmodels",
+      "matplotlib"
+    ],
+    "file": "codes/9.py"
+  },
+  "10": {
+    "name": "Movie Recommendation System using TF-IDF",
+    "description": "Content-based movie recommendation system using TF-IDF vectorization on movie genres and cosine similarity ranking.",
+    "category": "Recommendation System",
+    "language": "python",
+    "tags": [
+      "recommendation-system",
+      "tfidf",
+      "cosine-similarity",
+      "sklearn",
+      "nlp"
+    ],
+    "file": "codes/10.py"
   }
 }
-
