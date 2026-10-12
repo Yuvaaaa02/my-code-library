@@ -253,17 +253,129 @@
     ],
     "file": "codes/110.py"
   },
-  "9": {
-    "name": "Scatter Plot Using Sample Data",
-    "description": "Scatter plot visualization with sample data using Matplotlib and NumPy.",
-    "category": "Data Visualization",
+  "201": {
+    "name": "Student Performance Analysis",
+    "description": "Analyze student performance dataset including gender distribution by department, total marks, grades, and scholarship eligibility.",
+    "category": "Data Analysis",
     "language": "python",
     "tags": [
-      "visualization",
-      "scatter-plot",
-      "matplotlib",
+      "pandas",
+      "data-analysis",
+      "crosstab",
+      "student-performance"
+    ],
+    "file": "codes/201.py"
+  },
+  "202": {
+    "name": "Simple Linear Regression",
+    "description": "Simple linear regression using statsmodels and scikit-learn for study hours vs scores and MBA salary prediction.",
+    "category": "Regression",
+    "language": "python",
+    "tags": [
+      "linear-regression",
+      "statsmodels",
+      "sklearn",
+      "ols",
+      "evaluation"
+    ],
+    "file": "codes/202.py"
+  },
+  "203": {
+    "name": "Multiple Linear Regression and Diagnostics",
+    "description": "Multiple linear regression on IPL sold price and house price datasets with residual P-P plot and correlation heatmap diagnostics.",
+    "category": "Regression",
+    "language": "python",
+    "tags": [
+      "multiple-regression",
+      "statsmodels",
+      "diagnostics",
+      "pp-plot",
+      "heatmap"
+    ],
+    "file": "codes/203.py"
+  },
+  "204": {
+    "name": "Logistic Regression for German Credit Risk",
+    "description": "Classify credit risk using statsmodels Logit with confusion matrix, classification report, and ROC-AUC curve.",
+    "category": "Classification",
+    "language": "python",
+    "tags": [
+      "logistic-regression",
+      "classification",
+      "statsmodels",
+      "roc-auc",
+      "confusion-matrix"
+    ],
+    "file": "codes/204.py"
+  },
+  "205": {
+    "name": "Decision Tree Classification",
+    "description": "Predict coronary heart disease (CHD) using DecisionTreeClassifier with confusion matrix and ROC-AUC evaluation.",
+    "category": "Classification",
+    "language": "python",
+    "tags": [
+      "decision-tree",
+      "classification",
+      "sklearn",
+      "roc-auc",
+      "confusion-matrix"
+    ],
+    "file": "codes/205.py"
+  },
+  "206": {
+    "name": "Gradient Descent for Linear Regression",
+    "description": "Standardize salary data and implement gradient descent from scratch with bias and weight updates, cost calculation, and convergence plot.",
+    "category": "Optimization",
+    "language": "python",
+    "tags": [
+      "gradient-descent",
+      "optimization",
+      "linear-regression",
+      "from-scratch",
       "numpy"
     ],
-    "file": "codes/9.py"
+    "file": "codes/206.py"
+  },
+  "207": {
+    "name": "K-Means Clustering",
+    "description": "Cluster mall customer dataset based on Annual Income and Spending Score using StandardScaler and KMeans.",
+    "category": "Clustering",
+    "language": "python",
+    "tags": [
+      "k-means",
+      "clustering",
+      "unsupervised-learning",
+      "sklearn",
+      "standard-scaler"
+    ],
+    "file": "codes/207.py"
+  },
+  "208": {
+    "name": "Hierarchical Agglomerative Clustering",
+    "description": "Perform agglomerative hierarchical clustering with Ward linkage and plot dendrogram on customer spending data.",
+    "category": "Clustering",
+    "language": "python",
+    "tags": [
+      "hierarchical-clustering",
+      "agglomerative",
+      "dendrogram",
+      "scipy",
+      "sklearn"
+    ],
+    "file": "codes/208.py"
+  },
+  "209": {
+    "name": "ARIMA Demand Forecasting",
+    "description": "Fit ARIMA(1, 1, 1) model on store demand time series data, forecast next 10 steps, and display model AIC/BIC/Log-Likelihood.",
+    "category": "Time Series",
+    "language": "python",
+    "tags": [
+      "arima",
+      "time-series",
+      "forecasting",
+      "statsmodels",
+      "demand-forecasting"
+    ],
+    "file": "codes/209.py"
   }
 }
