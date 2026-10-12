@@ -1,36 +1,34 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
+# Experiment 4: Grouped and Stacked Bar Charts
+import matplotlib.pyplot as plt
+import numpy as np
 
-# Load dataset
-df = pd.read_csv("GermanCredit(1).csv")
+# Sample Data
+regions = ['North', 'South', 'East', 'West']
+q1_sales = [200, 220, 250, 190]
+q2_sales = [180, 240, 230, 210]
+positions = np.arange(len(regions))
+bar_width = 0.35
 
-# Convert categorical columns into numbers
-df = pd.get_dummies(df, drop_first=True)
+# 1. Grouped Bar Chart
+plt.figure(figsize=(7, 4))
+plt.bar(positions - bar_width/2, q1_sales, width=bar_width, label='Q1 Sales', color='steelblue')
+plt.bar(positions + bar_width/2, q2_sales, width=bar_width, label='Q2 Sales', color='orange')
+plt.xticks(positions, regions)
+plt.xlabel('Region')
+plt.ylabel('Sales')
+plt.title('Grouped Bar Chart of Sales by Region')
+plt.legend()
+plt.tight_layout()
+plt.show()
 
-# Select input and output
-X = df.drop("credit_risk", axis=1)
-y = df["credit_risk"]
-
-# Split the data
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-# Create Logistic Regression model
-model = LogisticRegression(max_iter=1000)
-
-# Train the model
-model.fit(X_train, y_train)
-
-# Predict
-y_pred = model.predict(X_test)
-
-# Display predictions
-print("Predicted values:")
-print(y_pred)
-
-# Calculate accuracy
-accuracy = accuracy_score(y_test, y_pred)
-print("\nAccuracy:", accuracy)
+# 2. Stacked Bar Chart
+plt.figure(figsize=(6, 4))
+plt.bar(positions, q1_sales, label='Q1 Sales', color='steelblue')
+plt.bar(positions, q2_sales, bottom=q1_sales, label='Q2 Sales', color='orange')
+plt.xticks(positions, regions)
+plt.xlabel('Region')
+plt.ylabel('Sales')
+plt.title('Stacked Bar Chart of Sales by Region')
+plt.legend()
+plt.tight_layout()
+plt.show()

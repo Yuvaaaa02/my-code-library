@@ -1,52 +1,28 @@
-import pandas as pd
+# Experiment 6: Single and Multiple Variable Density Plots
 import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
-# Load dataset
-df = pd.read_csv("Advertising.csv")
+np.random.seed(0)
+dataset1 = np.random.normal(loc=50, scale=10, size=500)
+dataset2 = np.random.normal(loc=65, scale=12, size=500)
 
-# Input and output
-X = df["TV"].values
-y = df["Sales"].values
+# 1. Single Variable Density Plot
+plt.figure(figsize=(6, 4))
+sns.kdeplot(dataset1, fill=True, color='blue')
+plt.xlabel('Value')
+plt.ylabel('Density')
+plt.title('Single Variable Density Plot')
+plt.tight_layout()
+plt.show()
 
-# Initial values
-m = 0
-b = 0
-
-# Learning rate
-lr = 0.0001
-
-# Gradient Descent
-for i in range(1000):
-    # Prediction
-    y_pred = m * X + b
-
-    # Error
-    error = y_pred - y
-
-    # Gradients
-    dm = (error * X).mean()
-    db = error.mean()
-
-    # Update parameters
-    m = m - lr * dm
-    b = b - lr * db
-
-# Print final values
-print("Slope:", m)
-print("Intercept:", b)
-print("Gradient of m:", dm)
-print("Gradient of b:", db)
-
-# Final prediction
-y_pred = m * X + b
-
-print("Predicted Sales:")
-print(y_pred)
-
-# Graph
-plt.scatter(X, y)
-plt.plot(X, y_pred)
-plt.xlabel("TV Advertising")
-plt.ylabel("Sales")
-plt.title("Gradient Descent - TV vs Sales")
+# 2. Multiple Variable Density Plot
+plt.figure(figsize=(6, 4))
+sns.kdeplot(dataset1, fill=True, label='Dataset 1', color='blue')
+sns.kdeplot(dataset2, fill=True, label='Dataset 2', color='orange')
+plt.xlabel('Value')
+plt.ylabel('Density')
+plt.title('Multiple Variable Density Plot')
+plt.legend()
+plt.tight_layout()
 plt.show()

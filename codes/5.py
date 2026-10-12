@@ -1,33 +1,27 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+# Experiment 5: Single and Multiple Variable Histograms
+import matplotlib.pyplot as plt
+import numpy as np
 
-# Load dataset
-df = pd.read_csv("adult.csv")
+np.random.seed(0)
+dataset1 = np.random.normal(loc=50, scale=10, size=500)
+dataset2 = np.random.normal(loc=65, scale=12, size=500)
 
-# Convert categorical columns into numbers
-df = pd.get_dummies(df)
+# 1. Single Variable Histogram
+plt.figure(figsize=(6, 4))
+plt.hist(dataset1, bins=20, color='skyblue', edgecolor='black')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.title('Single Variable Histogram')
+plt.tight_layout()
+plt.show()
 
-# Input and output
-X = df.drop("Target_ >50K", axis=1)
-y = df["Target_ >50K"]
-
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-# Create Classification Tree
-model = DecisionTreeClassifier()
-
-# Train
-model.fit(X_train, y_train)
-
-# Predict
-y_pred = model.predict(X_test)
-
-# Accuracy
-print("Predicted values:")
-print(y_pred)
-print("Accuracy:", accuracy_score(y_test, y_pred))
+# 2. Multiple Variable Histogram
+plt.figure(figsize=(6, 4))
+plt.hist(dataset1, bins=20, alpha=0.6, label='Dataset 1', color='skyblue', edgecolor='black')
+plt.hist(dataset2, bins=20, alpha=0.6, label='Dataset 2', color='orange', edgecolor='black')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.title('Multiple Variable Histogram')
+plt.legend()
+plt.tight_layout()
+plt.show()

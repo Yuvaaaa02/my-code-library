@@ -1,34 +1,28 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+# Experiment 3: Vertical and Horizontal Bar Charts
+import matplotlib.pyplot as plt
+import numpy as np
 
-# Load dataset
-df = pd.read_csv("house_price.csv")
+# Sample Data
+regions = ['North', 'South', 'East', 'West']
+sales = [200, 220, 250, 190]
+positions = np.arange(len(regions))
 
-# Select multiple features and target
-X = df[["Area", "Bedrooms", "BuiltUp", "Age"]]
-y = df["Price"]
+# 1. Vertical Bar Chart
+plt.figure(figsize=(6, 4))
+plt.bar(positions, sales, color='steelblue')
+plt.xticks(positions, regions)
+plt.xlabel('Region')
+plt.ylabel('Sales')
+plt.title('Vertical Bar Chart of Sales by Region')
+plt.tight_layout()
+plt.show()
 
-# Split the data
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-# Create the model
-model = LinearRegression()
-
-# Train the model
-model.fit(X_train, y_train)
-
-# Predict prices
-y_pred = model.predict(X_test)
-
-# Display predictions
-print("Predicted Prices:")
-print(y_pred)
-
-# Display coefficients and intercept
-print("\nCoefficients:")
-print(model.coef_)
-print("\nIntercept:")
-print(model.intercept_)
+# 2. Horizontal Bar Chart
+plt.figure(figsize=(6, 4))
+plt.barh(positions, sales, color='steelblue')
+plt.yticks(positions, regions)
+plt.xlabel('Sales')
+plt.ylabel('Region')
+plt.title('Horizontal Bar Chart of Sales by Region')
+plt.tight_layout()
+plt.show()

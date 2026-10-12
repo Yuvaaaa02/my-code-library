@@ -1,42 +1,22 @@
-import pandas as pd
+# Experiment 7: Empirical Cumulative Distribution Function (ECDF) Plot
 import matplotlib.pyplot as plt
-from scipy.cluster.hierarchy import dendrogram, linkage
-from sklearn.cluster import AgglomerativeClustering
+import numpy as np
+import statsmodels.api as sm
 
-# Load dataset
-df = pd.read_csv("dataset.csv")
+np.random.seed(0)
+data = np.random.normal(loc=0, scale=1, size=100)
 
-# Select input features
-X = df[["Feature1", "Feature2"]]
+# Compute ECDF
+ecdf = sm.distributions.ECDF(data)
+x = np.linspace(min(data), max(data), 100)
+y = ecdf(x)
 
-# Create linkage matrix
-linked = linkage(X, method="ward")
-
-# Plot dendrogram
-plt.figure(figsize=(8, 5))
-dendrogram(linked)
-plt.xlabel("Data Points")
-plt.ylabel("Distance")
-plt.title("Hierarchical Clustering Dendrogram")
+plt.figure(figsize=(6, 4))
+plt.step(x, y, where='post', label='ECDF', color='purple')
+plt.xlabel('Value')
+plt.ylabel('P(X <= x)')
+plt.title('Empirical Cumulative Distribution Function (ECDF)')
+plt.legend()
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.tight_layout()
 plt.show()
-
-# Create Hierarchical Clustering model
-model = AgglomerativeClustering(n_clusters=3)
-
-# Fit model and get cluster labels
-labels = model.fit_predict(X)
-
-# Add cluster labels to dataset
-df["Cluster"] = labels
-
-# Display cluster labels
-print("Cluster Labels:")
-print(df["Cluster"])
-
-# Visualization
-plt.scatter(X["Feature1"], X["Feature2"], c=labels)
-plt.xlabel("Feature1")
-plt.ylabel("Feature2")
-plt.title("Hierarchical Clustering")
-plt.show()
-

@@ -1,47 +1,14 @@
-import pandas as pd
+# Experiment 8: Q-Q Plot to Compare Two Datasets
 import matplotlib.pyplot as plt
-from statsmodels.tsa.arima.model import ARIMA
+import numpy as np
+import scipy.stats as stats
 
-# Load dataset
-df = pd.read_csv("dataset.csv")
+np.random.seed(0)
+sample_data = np.random.normal(loc=0, scale=1, size=100)
 
-# Convert date column to datetime
-df["Date"] = pd.to_datetime(df["Date"])
-
-# Set Date as index
-df.set_index("Date", inplace=True)
-
-# Select time-series column
-data = df["Value"]
-
-# Display data
-print(data)
-
-# Plot original time series
-plt.plot(data)
-plt.xlabel("Date")
-plt.ylabel("Value")
-plt.title("Time Series Data")
-plt.show()
-
-# Create ARIMA model
-model = ARIMA(data, order=(1, 1, 1))
-
-# Train model
-model_fit = model.fit()
-
-# Forecast next 5 values
-forecast = model_fit.forecast(steps=5)
-
-# Display forecast
-print("Forecasted Values:")
-print(forecast)
-
-# Plot forecast
-plt.plot(data, label="Actual")
-plt.plot(forecast, label="Forecast")
-plt.xlabel("Date")
-plt.ylabel("Value")
-plt.title("Time Series Forecast")
-plt.legend()
+plt.figure(figsize=(6, 4))
+stats.probplot(sample_data, dist="norm", plot=plt)
+plt.title('Q-Q Plot against Normal Distribution')
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.tight_layout()
 plt.show()
