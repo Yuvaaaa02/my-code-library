@@ -377,5 +377,100 @@
       "demand-forecasting"
     ],
     "file": "codes/209.py"
+  },
+  "301": {
+    "name": "Horizontal and Vertical Bar Charts",
+    "description": "Create vertical and horizontal bar charts using Matplotlib to visualize item-wise sales.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "matplotlib",
+      "bar-chart",
+      "data-visualization",
+      "plotting"
+    ],
+    "file": "codes/301.py"
+  },
+  "302": {
+    "name": "Grouped and Stacked Bar Charts",
+    "description": "Create grouped and stacked bar charts using Matplotlib and NumPy to compare sales across stores.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "matplotlib",
+      "numpy",
+      "grouped-bar-chart",
+      "stacked-bar-chart",
+      "data-visualization"
+    ],
+    "file": "codes/302.py"
+  },
+  "303": {
+    "name": "Single and Multiple Histograms",
+    "description": "Plot single-variable and multiple-distribution histograms with Matplotlib to analyze sales distributions.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "matplotlib",
+      "histogram",
+      "data-visualization",
+      "distribution"
+    ],
+    "file": "codes/303.py"
+  },
+  "304": {
+    "name": "Single and Multiple Density Plots",
+    "description": "Plot single-variable and multi-group Kernel Density Estimation (KDE) density plots using Seaborn and Matplotlib.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "seaborn",
+      "matplotlib",
+      "kde-plot",
+      "density-plot",
+      "data-visualization"
+    ],
+    "file": "codes/304.py"
+  },
+  "305": {
+    "name": "Empirical Cumulative Distribution Function (ECDF) Plot",
+    "description": "Compute and plot an Empirical Cumulative Distribution Function (ECDF) using NumPy and Matplotlib.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "ecdf",
+      "numpy",
+      "matplotlib",
+      "cumulative-distribution",
+      "data-visualization"
+    ],
+    "file": "codes/305.py"
+  },
+  "306": {
+    "name": "Quantile-Quantile (Q-Q) Plot",
+    "description": "Plot a Q-Q plot comparing sample quantiles of two datasets with a reference diagonal line using Matplotlib.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "qq-plot",
+      "quantiles",
+      "numpy",
+      "matplotlib",
+      "data-visualization"
+    ],
+    "file": "codes/306.py"
+  },
+  "307": {
+    "name": "Scatter Plot",
+    "description": "Plot a scatter plot using Matplotlib to show the relationship between advertising cost and sales.",
+    "category": "Data Visualization",
+    "language": "python",
+    "tags": [
+      "scatter-plot",
+      "matplotlib",
+      "correlation",
+      "data-visualization"
+    ],
+    "file": "codes/307.py"
   }
 }
